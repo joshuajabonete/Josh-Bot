@@ -8,9 +8,8 @@
 
 <div align="center">
   <a href="https://github.com/joshuajabonete">
-    <img src="img/readme-2.png" alt="Logo" height="80">
   </a>
 
   
   <p align="center">
-    Anti Rejection For Your Crush (EW YUCK LOL JK HAHA)
+    I'm your Virtual Boyfriend ( HAHA )
