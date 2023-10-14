@@ -9,13 +9,13 @@ var responseMessage = document.getElementById("response-message");
 var userMadeDecision = false;
 var jokes = [
 	'na magiging tayo.',
-	'Bakit may black eye yung juice?......Kasi nasa pack sya',
-	'Anong isda ang pwede mong isulat?.......Lafish',
-	'anong sabi ng anak na gulong sa kanyang mama na gulong na sumali sa marathon?...Go!Ma!',
-	'anong sabi ng nanay na donut sa kanyang anak na donut na umakyat ng puno?....Anak! Baba-rian!',
-	'Anong hayop ang madalas mauntog?......DOG',
-	'Anong hayop ang gusto maging direktor?....Cat!',
-	'Anong sabi ng kabilang kilay sa kabilang kilay?.....Hi Brow!'
+	'Ano ang tawag ng batang langgam sa kapatid na babae ng nanay niya?......Eh di ANTY!',
+	'Bakit maswerte ang kalendaryo?.......Kasi maraming siyang date.',
+	'Bakit malungkot ang kalendaryo?...Kasi bilang na ang araw niya.',
+	'Ano ang pagkakaparehas ng UTOT at TULA?....Pareho silang nagmula sa POET.',
+	'Anong isda ang nakalutang sa tubig?......Eh di yung patay na isda!',
+	'Anong paboritong palaman ng MMDA?....Eh di TRAFFIC JAM!',
+	'Ano sa Japanese ang speechless?.....Eh di WASABI.'
 ];
 
 // Activate felix and set timeout for awaiting a command.
@@ -42,19 +42,19 @@ function deactivateFelix() {
 	}, 750);
 }
 function getWeather() {
-	responseMessage.innerText = "Ang lamig payakap ako, char";
+	responseMessage.innerText = "Ang lamig payakap ako, char ";
 	showResponse();
 }
 function getTime() {
 	var today = new Date();
 	var time = today.getHours() + ":" + today.getMinutes();
-	responseMessage.innerText = "Perhaps it's time for you to like me? Char It's " + time + ".";
+	responseMessage.innerText = "Perhaps, It's time for you to love me? Char It's " + time + ".";
 	showResponse();
 }
 function getDate() {
 	var today = new Date();
 	var date = (today.getMonth() + 1) + '/' + today.getDate() + '/' + today.getFullYear();
-	responseMessage.innerText = "Mas maganda mag invest ka ng time saakin char jk, today is " + date + ".";
+	responseMessage.innerText = "Mas maganda mag invest ka ng time saakin char, today is " + date + ".";
 	showResponse();
 }
 function tellJoke() {
@@ -68,7 +68,7 @@ function searchGoogle() {
 }
 function showInspiration() {
 	deactivateFelix();
-	window.open("https://cdn.discordapp.com/attachments/1010408085514371082/1057241692643790869/GUSTO_KO_SANA_LAGAY_DITO_KASU_BAKA_D_AKO_GUSTO_AT_BAKA_MAY_JOWA_SYA__1.png", "_blank");
+	window.open("https://cdn.discordapp.com/attachments/1092407723896877148/1162572519144951868/MY_GIRLFRIEND.png", "_blank");
 }
 function showResponse() {
 	responseFrame.classList.add("active");
